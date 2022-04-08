@@ -28,6 +28,8 @@ public static void main(String[] args) {
     Socket socket = serverSocket.accept();
     
     serverSocket.close();
+    out= new DataOutputStream(socket.getOutputStream());
+    in= new BufferedReader( new InputStreamReader(socket.getInputStream()));
     socket.getOutputStream();
     
     

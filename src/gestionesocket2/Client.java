@@ -34,9 +34,9 @@ public class Client {
         stringaRicevuta=in.readLine();
         System.out.println("messaggio server: " +stringaRicevuta+"\n");
                       
-        String messaggioBenevnuto="inserisci data e ora";
+        String messaggioBenevnuto="dammi data e ora";
         out.writeBytes(messaggioBenevnuto+"\r\n");
-        System.out.println("invio data e ora\n");
+        System.out.println("mandami data e ora\n");
         out.flush();
             
         stringaRicevuta=in.readLine();
